@@ -1,0 +1,569 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background-color: #EC715F;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  position: relative;
+}
+
+.header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header img {
+  padding: 0;
+  height: 70px;
+}
+
+
+nav {
+  position: absolute;
+  top: 3px;
+  right: 200px;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  margin:0 30px;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 70px;
+}
+
+main {
+  background-image: url("img/mv.png") ;
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  width: 100%;
+}
+
+.main-title {
+  padding: 200px;
+  width: 90%;
+  margin: 0 auto;
+}
+ 
+.main-title h1 {
+  color: white;
+  font-size: 64px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.main-title p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.portfolio {
+  background-color: #ECEFF1;
+  padding: 90px 0;
+  width: 100%;
+}
+
+.portfolio-body {
+  width: 920px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+
+.portfolio-body h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.border {
+  width: 70px;
+  border-top: solid 3px #EC715F;
+  margin: 0 auto;
+}
+
+.portfolio-body p {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.portfolio-images {
+  width: 930px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 300px;
+  margin: 5px;
+}
+
+.image:nth-child(1) {
+  background-image: url("img/sketch.jpg");
+}
+.image:nth-child(2) {
+  background-image: url("img/websuku.png");
+}
+.image:nth-child(3) {
+  background-image: url("img/write.jpg");
+}
+.image:nth-child(4) {
+  background-image: url("img/webcamp.png");
+}
+.image:nth-child(5) {
+  background-image: url("img/talk.jpg");
+}
+.image:nth-child(6) {
+  background-image: url("img/webcamp-mother.png");
+}
+
+.feature {
+  width:1000px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.feature-body {
+  text-align: center;
+}
+
+.feature-body h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.feature-body p {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.strength i {
+  font-size: 60px;
+}
+
+.strengthes {
+  margin: 30px auto 0 auto;
+  display: flex;
+}
+
+.strength {
+  width: 320px;
+  margin: 5px;
+  text-align: center;
+}
+
+.strength h3 {
+  margin: 10px 0 10px 0;
+  font-size: 20px;
+}
+
+.strength p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.profile {
+  background-color: #ECEFF1;
+  padding: 90px 0 90px 0;
+}
+
+.profile-body {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-body h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.profile-body p {
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.profile-under {
+  width: 1024px;
+  display: flex;
+  margin: 30px auto 0 auto;
+}
+
+.profile-img {
+  width: 512px;
+  text-align: center;
+}
+
+.profile-img img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.profile-under-right {
+  width: 512px;
+}
+
+.profile-under-right h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile-under-right p {
+  font-size: 16px;
+}
+
+.name {
+  margin-bottom: 20px;
+}
+
+.contact {
+  width: 800px;
+  margin: 90px auto 90px auto;
+}
+
+.contact-body h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.contact-body p {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.contact-under {
+  display: flex;
+  text-align: center;
+}
+
+.contact-under h3 {
+  margin-bottom: 5px;
+}
+
+.contact-under-left {
+  width: 400px;
+}
+
+.contact-under-right {
+  width: 400px;
+}
+
+.contact-under-right i {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: #EC715F;
+  height: 70px;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  line-height: 70px;
+  font-size: 16px;
+  color: white;
+}
+
+
+@media screen and (max-width: 425px) {
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  header {
+    background-color: #EC715F;
+    width: 100%;
+    height: 50px;
+  }
+  
+  .header {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  header img {
+    padding: 0;
+    height: 50px;
+  }
+  
+  
+  nav {
+    display: none;
+  }
+  
+  main {
+    background-image: url("img/code.png") ;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    width: 100%;
+  }
+  
+  .main-title {
+    padding: 200px;
+    width: 90%;
+    margin: 0 auto;
+  }
+   
+  .main-title h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .main-title p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .portfolio {
+    background-color: #ECEFF1;
+    padding: 90px 0;
+    width: 100%;
+  }
+  
+  .portfolio-body {
+    width: 90%;
+    margin: 0 auto 30px auto;
+    text-align: center;
+  }
+  
+  .portfolio-body h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  
+  .border {
+    width: 70px;
+    border-top: solid 3px #EC715F;
+    margin: 0 auto;
+  }
+  
+  .portfolio-body p {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  
+  .portfolio-images {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .image {
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 300px;
+    margin: 5px auto 5px auto;
+    
+  }
+  
+  .image:nth-child(1) {
+    background-image: url("img/websuku.png");
+  }
+  .image:nth-child(2) {
+    background-image: url("img/webcamp.png");
+  }
+  .image:nth-child(3) {
+    background-image: url("img/webcamp-mother.png");
+  }
+
+  .image:nth-child(4) {
+    display: none;
+  }
+
+  .image:nth-child(5) {
+    display: none;
+  }
+
+  .image:nth-child(6) {
+    display: none;
+  }
+
+  .feature {
+    width:100%;
+    padding: 90px 0;
+  }
+  
+  .feature-body {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  .feature-body h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  
+  .feature-body p {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  
+  .strength i {
+    font-size: 60px;
+    margin-top: 30px;
+  }
+  
+  .strengthes {
+    margin: 30px auto 0 auto;
+    display: block;
+  }
+  
+  .strength {
+    width: 90%;
+    margin: 5px;
+    margin: 0 auto;
+  }
+  
+  .strength h3 {
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+  }
+  
+  .strength p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .profile {
+    width: 100%;
+    background-color: #ECEFF1;
+    padding: 90px 0 90px 0;
+  }
+  
+  .profile-body {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .profile-body h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  
+  .profile-body p {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  
+  .profile-under {
+    width: 100%;
+    display: block;
+    margin: 30px auto 0 auto;
+  }
+  
+  .profile-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .profile-img img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .profile-under-right {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .profile-under-right h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 5px 0;
+  }
+  
+  .profile-under-right p {
+    font-size: 16px;
+  }
+  
+  .contact {
+    width: 100%;
+    margin: 90px auto 90px auto;
+  }
+  
+  .contact-body h1 {
+    width: 90%;
+    text-align: center;
+    font-size: 32px;
+    margin: 0 auto 8px auto;
+  }
+  
+  .contact-body p {
+    width: 90%;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .contact-under {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .contact-under p {
+    margin: 5px 0 20px 0;
+  }
+  
+  .contact-under-left {
+    width: 400px;
+  }
+  
+  .contact-under-right {
+    width: 400px;
+  }
+  
+  .contact-under-right i {
+    font-size: 50px;
+    margin-right: 8px;
+  }
+  
+  footer {
+    background-color: #EC715F;
+    height: 60px;
+    width: 100%;
+  }
+  
+  footer p {
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+    color: white;
+  }
+}
+
